@@ -1,0 +1,86 @@
+.head-image {
+	background: url('../../pictures/head.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+}
+
+.jumbotron {
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: transparent;
+
+    position: absolute;
+	top: 200px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+
+@media (min-width: 768px)
+.navbar-default .nav > li>a, .navbar-default .nav>li>a:focus {
+    color: rgba(255,255,255,.7);
+}
+
+.middle {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+}
+
+.middle-signup {
+	position: absolute;
+	top: 85px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+      position: absolute;
+  top: 95%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.vcenter-signup {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: absolute;
+  	top: 90%;
+  	left:50%;
+  	transform: translate(-50%,-50%);
+  	color: #333;
+}
+
+.vcenter-signup-cpy {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+      position: absolute;
+  top: 98%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.labelz {
+	color: #333;
+}
